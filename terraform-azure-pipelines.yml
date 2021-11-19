@@ -86,7 +86,7 @@ stages:
                 backendType: 'azurerm'
                 backendServiceArm: 'azurebootcamp_con'
                 backendAzureRmResourceGroupName: 'terraform-storage-rg'
-                backendAzureRmStorageAccountName: 'todoliststgact354'
+                backendAzureRmStorageAccountName: 'todoliststgact355'
                 backendAzureRmContainerName: 'tfstatefiles'
                 backendAzureRmKey: 'todolist-$(DEV_ENVIRONMENT).tfstate'
                 allowTelemetryCollection: false
