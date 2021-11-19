@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: asifwaquarazurebootcampdemo 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: asifwaquarazurebootcampdemo
+  template:
+    metadata:
+      labels:
+        app: asifwaquarazurebootcampdemo 
+    spec:
+      containers:
+        - name: asifwaquarazurebootcampdemo 
+          image: todolistacr3.azurecr.io/asifwaquarazurebootcampdemo
+          ports:
+          - containerPort: 3000
